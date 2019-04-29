@@ -43,27 +43,6 @@ public class Terr {
 			}
 
 		}
-
-		// System.out.println(condition(q));
-//
-//		for (int j = 0; j < n; j++) {
-//			if (q != j) {
-//				if (gr[q][j] == 1 && q != j) {
-//					boolean c = isWin(j);
-//					System.out.println(c + " " + (j + 1));
-//
-//					if (!c) {
-//						System.out
-//								.println("First player wins flying to airport "
-//										+ (j + 1));
-//						return;
-//					}
-//				}
-//			}
-//		}
-//		System.out.println("First player loses");
-
-		// System.out.println(isWin(q, -1));
 		for (int i = 0; i < n; i++) {
 			if (gr[q][i] == 1 && q != i)
 				if (!isWin(i, q)) {
